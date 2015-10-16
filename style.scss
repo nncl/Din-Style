@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*!
   Din Style
   Framework URI: https://github.com/nncl/Din-Style
@@ -22,7 +23,31 @@
   text-align: center;
 }
 
+.dd-tleft {
+  text-align: left;
+}
+
+.dd-tright {
+  text-align: right;
+}
+
+.dd-tjustify {
+  text-align: justify;
+}
+
 .dd-fcenter {
   display: block;
   margin: 0 auto;
+}
+
+.dd-fleft {
+  float: left;
+}
+
+.dd-fright {
+  float: right;
+}
+
+.dd-fnone {
+  float: none;
 }
