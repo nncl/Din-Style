@@ -1,6 +1,6 @@
 # Din Style
 
-Framework CSS da Din Digital.
+Framework CSS da Din Digital. A documentação você pode ver [aqui](https://github.com/dindigital/style-patterns/wiki).
 
 ## Sass
 
