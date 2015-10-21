@@ -13,10 +13,12 @@
  * Tabela de conteúdos
  *
  * 1.0 - Posicionamento
+ *   1.1 - Centralizando conteúdos
+ *   1.2 - Centralizando blocos
  */
 
-/*** POSICIONAMENTO
-**** Centralizando conteúdos
+/*** 1.0 POSICIONAMENTO
+****   1.1 - Posicionando conteúdos
 ***/
 
 .dd-tcenter {
@@ -34,6 +36,10 @@
 .dd-tjustify {
   text-align: justify;
 }
+
+/***
+**** 1.2 Posicionando blocos
+***/
 
 .dd-fcenter {
   display: block;
