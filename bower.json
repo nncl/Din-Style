@@ -1,0 +1,23 @@
+{
+  "name": "Din Style",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nncl/Din-Style",
+  "authors": [
+    "Din Digital"
+  ],
+  "description": "Framework CSS da Din Digital, o Din Style",
+  "main": "style.scss",
+  "moduleType": [],
+  "keywords": [
+    "din",
+    "style"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
