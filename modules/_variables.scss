@@ -2,4 +2,4 @@
 // --------------------------
 $path: '';
 
-$load: url('#{$path}img/load.gif');
+$load: url('#{$path}img/load.gif') !default;
