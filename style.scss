@@ -20,6 +20,8 @@
  *   1.2 - Centralizando blocos
  *
  * 2.0 - Formulários
+ * 3.0 - Listas
+ * x.0 - Geral
  */
 
  // ******* LET'S GO THEN *******
@@ -93,4 +95,40 @@ select {
 
 .dd-success {
   color: $green;
+}
+
+/***
+**** 3.0 Listas
+***/
+
+.dd-inline-list > * {
+  display: inline-block;
+}
+
+.dd-vtop {
+  vertical-align: top;
+}
+
+.dd-vmiddle {
+  vertical-align: middle;
+}
+
+.dd-vbottom {
+  vertical-align: bottom;
+}
+
+.dd-block-list > * {
+  display: block;
+}
+
+/***
+**** x.0 Geral
+***/
+
+.dd-upper {
+  text-transform: uppercase;
+}
+
+.dd-lower {
+  text-transform: lowercase;
 }
