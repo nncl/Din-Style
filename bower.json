@@ -1,11 +1,11 @@
 {
-  "name": "Din Style",
+  "name": "din-style",
   "version": "1.0.0",
   "homepage": "https://github.com/nncl/Din-Style",
   "authors": [
     "Din Digital"
   ],
-  "description": "Framework CSS da Din Digital, o Din Style",
+  "description": "Framework CSS da Din Digital",
   "main": "style.scss",
   "moduleType": [],
   "keywords": [
