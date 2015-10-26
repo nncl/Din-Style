@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+@import "modules/colors";
+@import "modules/variables";
+
 /*!
   Din Style
   Framework URI: https://github.com/nncl/Din-Style
@@ -15,7 +18,11 @@
  * 1.0 - Posicionamento
  *   1.1 - Centralizando conteúdos
  *   1.2 - Centralizando blocos
+ *
+ * 2.0 - Formulários
  */
+
+ // ******* LET'S GO THEN *******
 
 /*** 1.0 POSICIONAMENTO
 ****   1.1 - Posicionando conteúdos
@@ -56,4 +63,34 @@
 
 .dd-fnone {
   float: none;
+}
+
+/***
+**** 2.0 Formulários
+***/
+
+.dd-load {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: $load;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.dd-error {
+  color: $red;
+}
+
+input,
+textarea,
+button,
+select {
+  &.dd-error {
+    border: 1px solid $red;
+  }
+}
+
+.dd-success {
+  color: $green;
 }
