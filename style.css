@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/*!
+  Din Style
+  Framework URI: https://github.com/nncl/Din-Style
+  Author: Din Digital
+  Author URI: http://dindigital.com/
+  Description: Framework CSS usado pela Din Digital.
+  Version: 1.0
+*/
+/**
+ * Tabela de conteúdos
+ *
+ * 1.0 - Posicionamento
+ *   1.1 - Centralizando conteúdos
+ *   1.2 - Centralizando blocos
+ *
+ * 2.0 - Formulários
+ */
+/*** 1.0 POSICIONAMENTO
+****   1.1 - Posicionando conteúdos
+***/
+.dd-tcenter {
+  text-align: center; }
+
+.dd-tleft {
+  text-align: left; }
+
+.dd-tright {
+  text-align: right; }
+
+.dd-tjustify {
+  text-align: justify; }
+
+/***
+**** 1.2 Posicionando blocos
+***/
+.dd-fcenter {
+  display: block;
+  margin: 0 auto; }
+
+.dd-fleft {
+  float: left; }
+
+.dd-fright {
+  float: right; }
+
+.dd-fnone {
+  float: none; }
+
+/***
+**** 2.0 Formulários
+***/
+.dd-load {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("img/load.gif");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.dd-error {
+  color: #c91919; }
+
+input.dd-error,
+textarea.dd-error,
+button.dd-error,
+select.dd-error {
+  border: 1px solid #c91919; }
+
+.dd-success {
+  color: #3e9541; }
+
+/*# sourceMappingURL=style.css.map */

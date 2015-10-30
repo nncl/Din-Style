@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+@import "modules/colors";
+@import "modules/variables";
+
+/*!
+  Din Style
+  Framework URI: https://github.com/nncl/Din-Style
+  Author: Din Digital
+  Author URI: http://dindigital.com/
+  Description: Framework CSS usado pela Din Digital.
+  Version: 1.0
+*/
+
+/**
+ * Tabela de conteúdos
+ *
+ * 1.0 - Posicionamento
+ *   1.1 - Centralizando conteúdos
+ *   1.2 - Centralizando blocos
+ *   1.3 - Centralizando verticalmente
+ *
+ * 2.0 - Formulários
+ * 3.0 - Listas
+ * x.0 - Geral
+ */
+
+ // ******* LET'S GO THEN *******
+
+/*** 1.0 POSICIONAMENTO
+****   1.1 - Centralizando conteúdos
+***/
+
+.dd-tcenter {
+  text-align: center;
+}
+
+.dd-tleft {
+  text-align: left;
+}
+
+.dd-tright {
+  text-align: right;
+}
+
+.dd-tjustify {
+  text-align: justify;
+}
+
+/*** - ***/
+
+/***
+**** 1.2 Centralizando blocos
+***/
+
+.dd-fcenter {
+  display: block;
+  margin: 0 auto;
+}
+
+.dd-fleft {
+  float: left;
+}
+
+.dd-fright {
+  float: right;
+}
+
+.dd-fnone {
+  float: none;
+}
+
+/*** - ***/
+
+/***
+**** 1.3 Centralizando verticalmente
+***/
+
+// GULP HACK FOR IE HACK
+$position: '#position';
+$top: '#top';
+
+.dd-all-center {
+  #{ $position }: absolute;
+  #{ $top }: 50%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.dd-center {
+  #{ $position }: relative;
+  #{ $top }: -50%;
+}
+
+/*** - ***/
+
+/***
+**** 2.0 Formulários
+***/
+
+.dd-load {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: $load;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.dd-error {
+  color: $red;
+}
+
+input,
+textarea,
+button,
+select {
+  &.dd-error {
+    border: 1px solid $red;
+  }
+}
+
+.dd-success {
+  color: $green;
+}
+
+/*** - ***/
+
+/***
+**** 3.0 Listas
+***/
+
+.dd-inline-list {
+  font-size: 0;
+
+  & > * {
+    display: inline-block;
+  }
+}
+
+.dd-vtop {
+  vertical-align: top;
+}
+
+.dd-vmiddle {
+  vertical-align: middle;
+}
+
+.dd-vbottom {
+  vertical-align: bottom;
+}
+
+.dd-block-list > * {
+  display: block;
+}
+
+/*** - ***/
+
+/***
+**** x.0 Geral
+****   x.1 Fontes
+****   x.2 Mostrando/Escondendo elementos
+***/
+
+/***
+**** x.1 Fontes
+***/
+
+.dd-upper {
+  text-transform: uppercase;
+}
+
+.dd-lower {
+  text-transform: lowercase;
+}
+
+/*** - ***/
+
+/***
+**** x.2 Escondendo/Mostrando elementos
+***/
+
+.dd-hide {
+  display: none;
+}
+
+.dd-hidev {
+  visibility: hidden;
+}
+
+.dd-show {
+  display: inline-block;
+}
+
+.dd-showv {
+  visibility: visible;
+}
+
+/*** - ***/
