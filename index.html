@@ -1,1 +1,80 @@
-My Page
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Din Style</title>
+
+    <link type="text/css" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <style media="screen">
+      .menu {
+        position: fixed;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="dd-tcenter">Din Style</h1>
+    <h2 class="dd-tcenter">Framework CSS by Din Digital</h2>
+
+    <section class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-2">
+          <header class="menu">
+            <h1>Exemplos</h1>
+            <div class="list-group">
+              <a href="#positioning" class="list-group-item">Posicionamento</a>
+              <a href="#forms" class="list-group-item">Formulários</a>
+            </div>
+          </header>
+        </div>
+
+        <div class="col-md-10">
+          <section id="positioning" class="content">
+            <header>
+              <h1>Posicionamento</h1>
+            </header>
+            <div class="well">...</div>
+          </section>
+
+          <section id="forms" class="content">
+            <header>
+              <h1>Formulários</h1>
+            </header>
+
+            <h3>Exemplo de erro:</h3>
+            <p>Exemplo de erro em uma escrita.</p>
+            <pre class="pre-scrollable">&lt;span class="dd-error"&gt;Oops! Alguma coisa deu errado.&lt;/span&gt;</pre>
+            <p class="dd-error">
+              Oops! Alguma coisa deu errado.
+            </p>
+
+            <br/>
+
+            <p>Exemplo de erro em um campo de entrada.</p>
+            <pre class="pre-scrollable">&lt;input class="dd-error"/&gt;</pre>
+            <input class="dd-error form-control" placeholder="Nome*"></input>
+
+            <br/>
+
+            <h3>Exemplo de sucesso:</h3>
+            <pre class="pre-scrollable">&lt;span class="dd-success"&gt;Formulário enviado com sucesso.&lt;/span&gt;</pre>
+            <p class="dd-success">
+              Formulário enviado com sucesso.
+            </p>
+
+            <br/>
+
+            <h3>Exemplo de loading:</h3>
+            <pre class="pre-scrollable">&lt;span class="dd-load"&gt;&lt;/span&gt;</pre>
+            <span class="dd-load"></span>
+
+            <br/>
+          </section>
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>
