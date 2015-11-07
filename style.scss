@@ -76,7 +76,7 @@
 **** 1.3 Centralizando verticalmente
 ***/
 
-// GULP HACK
+// GULP HACK FOR IE HACK
 $position: '#position';
 $top: '#top';
 
@@ -130,8 +130,12 @@ select {
 **** 3.0 Listas
 ***/
 
-.dd-inline-list > * {
-  display: inline-block;
+.dd-inline-list {
+  font-size: 0;
+
+  & > * {
+    display: inline-block;
+  }
 }
 
 .dd-vtop {
