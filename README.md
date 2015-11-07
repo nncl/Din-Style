@@ -1,10 +1,6 @@
 # Din Style
 
-<<<<<<< HEAD
-Framework CSS da Din Digital. A documentação você pode ver [aqui](https://github.com/dindigital/style-patterns/wiki) e para ver os exemplos é só clicar [aqui](http://nncl.github.io/Din-Style/).
-=======
 Framework CSS da Din Digital. A documentação você pode ver [aqui](https://github.com/dindigital/style-patterns/wiki) e os exemplos você pode ver [aqui](http://nncl.github.io/dinstyle.github.io/).
->>>>>>> gh-pages
 
 ## Sass
 
