@@ -18,10 +18,7 @@
  * 2.0 - Formulários
  * 3.0 - Listas
  * x.0 - Geral
- *   x.1 Fontes
- *   x.2 Mostrando/Escondendo elementos
  */
-
 /*** 1.0 POSICIONAMENTO
 ****   1.1 - Centralizando conteúdos
 ***/
@@ -74,11 +71,9 @@
 ***/
 .dd-load {
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  background-image: url("img/load.gif");
-  background-repeat: no-repeat;
-  background-size: 100%; }
+  font: normal normal normal 14px/1 FontAwesome; }
+  .dd-load:before {
+    content: "\f110"; }
 
 .dd-error {
   color: #c91919; }

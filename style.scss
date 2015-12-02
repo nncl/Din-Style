@@ -100,11 +100,16 @@ $top: '#top';
 
 .dd-load {
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  background-image: $load;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  // width: 30px;
+  // height: 30px;
+  // background-image: $load;
+  // background-repeat: no-repeat;
+  // background-size: 100%;
+  font: normal normal normal 14px/1 FontAwesome;
+
+  &:before {
+    content: "\f110";
+  }
 }
 
 .dd-error {
