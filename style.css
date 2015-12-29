@@ -34,6 +34,10 @@
 .dd-tjustify {
   text-align: justify; }
 
+.dd-imgcenter {
+  display: block;
+  margin: 0 auto; }
+
 /*** - ***/
 /***
 **** 1.2 Centralizando blocos
